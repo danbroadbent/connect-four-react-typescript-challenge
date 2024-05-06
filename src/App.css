@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.board {
+  background-color: blue;
+  margin: auto;
+}
+
+.header {
+  background-color: white;
+}
+
+.play-again {
+  width: 100%;
+  text-align: center;
+}
+
+.game-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 40px;
+  width: 560px;
+}
+
+.button {
+  padding: 4px 12px;
+  border: 0 solid;
+  border-radius: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
